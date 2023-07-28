@@ -193,7 +193,7 @@
 			}
 			.dropdown-menu-dark{
 				--bs-dropdown-bg: #f7f7f7;
-				--bs-dropdown-item-padding-x: 0;
+				--bs-dropdown-item-padding-x: 1em;
 			}
 			.dropdown-item{
 				color: #0c2340;
