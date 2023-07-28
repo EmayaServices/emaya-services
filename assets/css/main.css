@@ -171,7 +171,7 @@
 				color: #00c756 !important;
 			}
 			.p-2{
-				padding: 2.5em !important;
+				padding: 1em 0 2.5em 0 !important;
 			}
 			.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
 				color: #00c756 !important;
