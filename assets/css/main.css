@@ -164,6 +164,7 @@
 		height: 30px;
 		position: relative;
 		transition: .5s ease-in-out;
+		margin-right: 1em;
 	}
 
 	.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus{
@@ -1538,4 +1539,3 @@
     			width: 7em !important;
 			}
 		}
-
