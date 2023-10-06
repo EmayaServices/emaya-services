@@ -1,0 +1,100 @@
+
+/* SOLUTIONS CUSTOMER ACQUISION AREA */
+	/* DESCRIPTION FIRST SECTION CAS */
+		.first-section-cas{
+			padding: 0 2em;
+		}
+
+		.cards-cas > .card {
+			--bs-card-border-color: none;
+			--bs-card-bg: none;
+			margin: 4em 16em;
+		}
+
+		/* DESCRIPTION INFO */
+			.card-cas-one > p, .card-cas-two > p {
+				font-size: 14pt;
+				padding: 0;
+			}
+
+			.info-cas-one{
+				align-items: center;
+			}
+
+			.info-cas-two {
+				display: flex;
+				flex-direction: row-reverse;
+				align-items: center;
+			}
+
+			.card-cas-two > p{
+				padding-right: 5em;
+			}
+
+			.card-cas-one > p{
+				padding-left: 5em;
+			}
+
+			.cas-info-image1, .cas-info-image2{
+			display: flex
+		}
+
+	/* DESCRIPTION RESPONSIVE AREA */
+		@media (max-width: 1650px){
+			.cards-cas > .card {
+				margin: 4em 8em;
+			}
+		}
+
+		@media (max-width: 1400px){
+			.cards-cas > .card {
+				margin: 4em 5em;
+			}
+			.card-cas-one > p, .card-cas-two > p {
+				font-size: 12pt;
+			}
+		}
+
+		@media (max-width: 1200px){
+			.cards-cas > .card {
+				margin: 4em 2em;
+			}		
+		}
+
+		@media (max-width: 990px){
+			.cards-cas > .card{
+				margin: 3em 0;
+			}
+			.card-cas-two > p{
+				padding-right: 2em;
+			}
+			.card-cas-one > p{
+				padding-left: 2em;
+			}
+		}
+
+		@media (max-width: 767px){
+			.first-section-cas{
+				padding: 2em 4em;
+			}
+			.card-cas-one > p, .card-cas-two > p {
+				padding: 1em 0 0 0;
+			}
+			.card-cas-one{
+				margin: 0 !important;
+			}
+			.cards-cas > .card{
+				margin: 0;
+			}
+			.cas-info-image2{
+				display: none;
+			}
+		}
+
+	/*SERVICES SECTION CAS */
+		#cas-third-section {
+			padding: 2em 0 4em 0;
+		}
+/* END SOLUTIONS CUSTOMER ACQUISION AREA */
+
+

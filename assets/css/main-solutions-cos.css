@@ -1,0 +1,46 @@
+/* COLLECTIONS AREA */
+/* DESCRIPTION SECTION */
+	.cos-d{
+		padding: 4em 14em 7em 14em;
+	}
+
+	.cos-d-body{
+		text-align: justify;
+		font-weight: 400;
+		line-height: normal;
+		font-size: 14pt;
+		padding-top: 3em
+	}
+
+	/* RESPONSIVE DESCRIPTION AREA */
+		@media (max-width: 1600px){
+			.cos-d{
+				padding: 4em 8em 7em 8em;
+			}
+		}
+
+		@media (max-width: 1200px){
+			.cos-d{
+				padding: 4em 4em 7em 4em;
+			}
+		}
+
+		@media (max-width: 767px){
+			.cos-d{
+				padding: 1em 4em 4em 4em;
+			}
+		}
+
+		@media (max-width: 500px){
+			.cos-d{
+				padding: 0 2em 4em 2em;
+			}
+		}
+
+
+/* SERVICES COLLECTIONS */
+	.cos-title{
+		margin-bottom: 3em;
+	}
+
+/* END COLLECTIONS AREA */
