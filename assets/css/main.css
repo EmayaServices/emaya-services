@@ -149,7 +149,7 @@
 	} /* ACTIVE BORDER SELECTION */
 
 	.dropdown-item.active, .dropdown-item:active {
-		color: #00c756;
+		color: #dee2e630;
 		background-color: #dee2e6;
 	}
 
