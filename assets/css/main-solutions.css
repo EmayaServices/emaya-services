@@ -1,0 +1,1811 @@
+/*
+* CCS - Contact Center Services
+* CSA - Customer Acquisition Services
+* TSS - Technical Support Services
+* COS - Collections
+* ITSS - IT Support Services
+* TAAS - Talent As A Service
+* CYS - Cybersecurity Services
+* BIS - Business Intelligence Consulting
+* AIS - AI Training
+*/
+
+
+/*--------------------------------------------------------------
+# SOLUTIONS PAGE - GENERAL BANNER SECTION
+--------------------------------------------------------------*/
+/* BANNER FIRST SECTION */
+	.section-banner {
+		background: conic-gradient(from 278deg at 60% 40.00%, #0c2340 32deg, #0c234000 134deg, #0c2340 283deg);
+	}
+
+/* GENERAL BANNER SECTION */
+	.section-banner2 > .card {
+		--bs-card-border-color: none;
+		--bs-card-bg: none;
+		background-color: transparent !important;
+	}
+
+	/* BANNER INFO */
+		.banner-info {
+			margin: 5em 4em;
+			align-items: flex-end;
+		}
+
+		.b-caption {
+			display: flex;
+			align-items: flex-start;
+			flex-direction: column;
+			padding: 0;
+			justify-content: flex-end;
+		}
+
+		.b-caption > p {
+			color: #00c756;
+			font-size: 4em;
+			text-transform: uppercase;
+			padding-bottom: 0.5em;
+			line-height: 0.9em  ;
+			text-align: initial;
+			font-weight: 900;
+		}
+
+		.b-caption > h5 {
+			color: #a8adb0;
+			font-size: 2em;
+			text-transform: uppercase;
+			padding-bottom: 2em;
+			font-weight: 300;
+			line-height: normal;
+			text-align: initial;
+		}
+
+		.b-caption h5 span {
+			position: absolute;
+			display: contents;
+			color: #00c756;
+			font-size: 3.5em;
+			line-height: 0;
+		}
+
+		#except{
+			color: #a8adb0;
+			font-size: inherit;
+			text-transform: none;
+			font-weight: 300;
+		}
+
+		.banner-btn {
+			border-radius: 1em !important;
+			background-color: #00c756 !important;
+			padding: 0.7em 2em !important;
+			color: #0c2340!important;
+			font-weight: 500;
+			font-size: 16pt;
+			border: none !important;
+			text-transform: uppercase;
+		}
+
+	/* BANNER IMG */
+		.banner-img {
+			padding-left: 5em;
+			display: flex;
+			height: 37em !important;
+		}
+
+		.banner-img > img{
+			display: flex;
+			width: 100%;
+			object-fit: cover;
+		}
+
+	/* CAPTION FIRST SECTION */
+		.sec-caption{
+			padding: 6em 10em 5em 10em;
+			text-align: center;
+		  }
+
+		.sec-caption-text{
+			color: #00C756;
+			font-size: 18pt;
+			font-weight: 700;
+			line-height: normal;
+			padding: 0 2em;
+		}
+
+		.sec-caption-description{
+			padding-top: 3em;
+			border-top: 0.01em solid #00c756;
+			color: #F3F3F3;
+			font-size: 14pt;
+			line-height: normal;
+			margin-top: 3em;
+		}
+
+		/* RESPONSIVE BANNER SECTION*/
+			@media (max-width:1800px){
+				.sec-caption{
+					padding: 4em;
+				}
+				.b-caption > p {
+					font-size: 3em;
+				}
+				.b-caption > h5 {
+					font-size: 1.5em;
+					padding-bottom: 1em;
+				}
+			}
+
+			@media (max-width:1700px){
+				.banner-img{
+					height: 28em !important;
+				}
+			}
+
+			@media (max-width:1600px){
+				.banner-info {
+					margin: 4em;
+				}
+				.banner-img{
+					padding-left: 4em;
+				}
+			}
+
+			@media (min-width: 1223px){
+				.banner-btn-one{
+					visibility: visible !important;
+					display: flex;
+				}
+				.banner-btn-two{
+					display: none !important;
+				}
+			}
+
+			@media (max-width: 1350px){
+				.b-caption > p {
+					font-size: 2.5em;
+				}
+				.b-caption > h5 {
+					font-size: 1.2em;
+				}
+				.banner-btn-one{
+					visibility: visible !important;
+					display: flex;
+				}
+				.banner-btn-two{
+					display: none !important;
+				}
+				.section-banner {
+					background: conic-gradient(from 295deg at 66.22% 35.45%,#0C2340 8deg, #0c234000 113deg, #0C2340 280deg);
+				}
+				.banner-img{
+					padding-left: 3em;
+				}
+			}
+
+			@media (max-width: 1250px){
+				.banner-img{
+					height: 25em !important;
+				}
+			}
+
+			@media (min-width: 768px) and (max-width: 1100px){
+				.banner-info > .col-md-4{
+					width: 40% ;
+				}
+				.banner-info > .col-md-8{
+					width: 60%
+				}
+				.banner-img{
+					padding-left: 2em;
+				}
+			}
+
+			@media (max-width: 1100px){
+				.banner-btn-one{
+					visibility: visible !important;
+					display: flex;
+				}
+				.banner-btn-two{
+					display: none !important;
+				}
+				.b-caption > p {
+					font-size: 2em;
+				}
+				.banner-info {
+					margin: 2.5em 2em;
+				}
+				.banner-img{
+					height: 20em !important;
+				}
+			}
+
+			@media (max-width: 950px){
+				.banner-btn{
+					font-size: 14pt;
+				}
+				.b-caption > h5{
+					font-size: 1em;
+					padding-bottom: 0.5em;
+				}
+				.sec-caption{
+					padding: 3em;
+				}
+				.banner-img{
+					height: 15em !important;
+				}
+			}
+
+			@media (max-width: 767px){
+				.section-banner > .card{
+					--bs-card-title-spacer-y: 0 !important;
+				}
+				.banner-info {
+					margin: 0;
+				}
+				.b-caption{
+					margin: 2em 2em 0.5em 2em;
+					align-items: center;
+				}
+				.b-caption > h5{
+					text-align: center;
+					padding-top: 0.5em;
+				}
+				.b-caption h5 > br{
+					display: none !important;
+				}
+				.b-caption >  p{
+					padding: 0;
+					text-align: center;
+					font-size: 2em;
+				}
+				.banner-img {
+					padding: 0 2em;
+				}
+				.section-banner {
+					background: linear-gradient(115deg, #0C2340 0%, rgba(12, 35, 64, 0.98) 16.11%, rgba(12, 35, 64, 0.84) 36.91%, rgba(12, 35, 64, 0.75) 54.55%, rgba(12, 35, 64, 0.67) 72.75%, rgba(12, 35, 64, 0.57) 100%);
+				}
+				.banner-btn-one{
+					display: none !important;
+				}
+				.banner-btn-two{
+					visibility: visible !important;
+					display: flex !important;
+					justify-content: center;
+				}
+				.banner-btn {
+					font-size: 16pt;
+					margin-top: 2em;
+				}
+				.sec-caption{
+					text-align: center;
+					padding: 2em 1.5em 2.5em 1.5em;
+				}
+				.sec-caption-text{
+					padding: 0 1em;
+					font-size: 14pt;
+				}
+				.sec-caption-description{
+					padding-top: 2em;
+					margin-top: 2em;
+					font-size: 12pt;
+				}
+			}
+
+			@media (max-width: 500px){
+				.banner-btn {
+					font-size: 14pt;
+				}
+				.banner-img {
+					padding: 0 1.5em;
+				}
+				.b-caption {
+					margin: 2em 1.5em 0.5em 1.5em;
+				}
+				.sec-caption-description {
+					padding-top: 1.5em;
+					margin-top: 1.5em;
+				}
+				.sec-caption-text {
+					padding: 0;
+				}
+			}
+
+
+/*--------------------------------------------------------------
+# SOLUTIONS PAGE - CARDS SECOND SECTION
+--------------------------------------------------------------*/
+	.ccs-cards{
+		padding: 6em;
+	}
+
+	.ccs-cards > .g-4{
+		--bs-gutter-y: 3.5rem;
+		--bs-gutter-x: 3.5rem;
+	}
+
+	.ccs-cards > .row{
+		justify-content: center;
+	}
+
+	.card-col{
+		width: 40%;
+	}
+
+	.ccs-card-service{
+		background: #0c2340;
+		--bs-card-border-width: none;
+	}
+
+	.ccs-card-service-caption{
+		padding: 2em;
+		> h5{
+			color: #00C756;
+			text-transform: none;
+			margin-bottom: 1em;
+		}
+		> p{
+			color: #F3F3F3;
+		}
+	}
+
+	/* RESPONSIVE CARDS SECOND SECTION*/
+		@media (max-width:1500px){
+			.ccs-cards{
+				padding: 6em 4em;
+			}
+			.ccs-cards > .g-4{
+				--bs-gutter-y: 2rem;
+				--bs-gutter-x: 2rem;
+			}
+			.ccs-cards > .row{
+				display: flex;
+				flex-direction: row;
+			}
+		}
+
+		@media (max-width:1100px){
+			.ccs-cards > .g-4{
+				--bs-gutter-y: 1.5rem;
+				--bs-gutter-x: 1.5rem;
+			}
+			.ccs-cards {
+				padding: 4em 0;
+			}
+		}
+
+		@media (max-width: 900px){
+			.ccs-cards > .row{
+				display: flex;
+				flex-direction: column;
+			}
+			.card-col {
+				width: 100%;
+			}
+			.ccs-cards {
+				padding: 4em;
+			}
+		}
+
+		@media (max-width: 767px){
+			.ccs-cards {
+				padding: 3em 3em 5em 3em;
+			}
+			.ccs-card-service-caption{
+				padding: 1.5em;
+			}
+		}
+
+		@media (max-width: 500px){
+			.ccs-cards {
+				padding: 3em 1.5em 4em 1.5em;
+			}
+			.ccs-card-service-caption{
+				padding: 1em;
+			}
+		}
+
+
+	/* CARDS SPACE */
+		@media (min-width: 1636px){
+			.space-v{
+				display: none;
+				visibility: hidden;
+			}
+		}
+
+		@media (max-width:1637px){
+			.space-v{
+				display: flex !important;
+				visibility: visible !important;
+			}
+		}
+
+		@media (max-width:1351px){
+			.space-v{
+				display: none !important;
+				visibility: hidden !important;
+			}
+		}
+
+		@media (min-width:1317px){
+			.space-v1{
+				display: none;
+				visibility: hidden;
+			}
+		}
+
+		@media (max-width:1316px){
+			.space-v1{
+				display: flex !important;
+				visibility: visible !important;
+			}
+		}
+
+		@media (max-width:1177px){
+			.space-v1{
+				display: none !important;
+				visibility: hidden !important;
+			}
+		}
+
+		@media (max-width:1100px){
+			.space-v1{
+				display: flex !important;
+				visibility: visible !important;
+			}
+		}
+
+		@media (max-width:1027px){
+			.space-v1{
+				display: none !important;
+				visibility: hidden !important;
+			}
+		}
+
+		@media (max-width:929px){
+			.space-v{
+				display: flex !important;
+				visibility: visible !important;
+			}
+		}
+
+		@media (max-width:900px){
+			.space-v{
+				display: none !important;
+				visibility: hidden !important;
+			}
+		}
+
+
+/*--------------------------------------------------------------
+# SOLUTIONS PAGE - SERVICES THIRD SECTION
+--------------------------------------------------------------*/
+	#ccs-third-section, #cas-third-section, #itss-third-section{
+		height: auto;
+		padding-bottom: 4em;
+	}
+
+	.ccs-title2, .taas-title1, .cos-title, .itts-title2 {
+		display: block;
+		position: relative;
+	}
+
+	.ccs-name, .taas-name1, .cos-name {
+		display: block;
+		position: relative;
+		color: #0C2340;
+		text-align: center;
+		font-size: 2em;
+		font-weight: 700;
+		line-height: normal;
+		text-transform: uppercase;
+		padding: 0 1em;
+	}
+
+	header.ccs-major > .ccs-title2:before, header.ccs-major > .ccs-title2:after,
+	header.taas-major1 > .taas-title1:before, header.taas-major1 > .taas-title1:after,
+	header.cos-major > .cos-title:before, header.cos-major > .cos-title:after{
+		content: '';
+		color: #0c2340;
+		display: block;
+		position: absolute;
+		top: 50%;
+		width: calc(28% - 0.1em);
+		border-top: solid 0.1em;
+	}
+
+	header.ccs-major > .ccs-title2:before, header.taas-major1 > .taas-title1:before, header.cos-major > .cos-title:before {
+		left: 5em;
+	}
+
+	header.ccs-major > .ccs-title2:after, header.taas-major1 > .taas-title1:after, header.cos-major > .cos-title:after {
+		right: 5em;
+	}
+
+/* SERVICES CARD THIRD SECTION */
+	.services-options{
+		margin: 3em 6em;
+	}
+
+	.services-options > div{
+		display: flex;
+		justify-content: center;
+		padding: 0;
+	}
+
+	.services-card{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 60%;
+    	padding: 1.5em 3em;
+		border: 0.01em solid #0c2340;
+		--bs-card-bg: none;
+	}
+
+	.services-card > img{
+		height: auto;
+		margin-right: 2.5em;
+		width: 2.5em;
+	}
+
+	.services-card-title{
+		text-transform: none !important;
+		font-size: 14pt !important;
+		font-weight: 500 !important;
+		line-height: normal;
+		margin-block-end: 0 !important;
+	}
+
+	/*RESPONSIVE SECOND SECTION*/
+		@media screen and (max-width: 1700px) {
+			header.ccs-major > .ccs-title2:before, header.ccs-major > .ccs-title2:after,
+			header.taas-major1 > .taas-title1:before, header.taas-major1 > .taas-title1:after,
+			header.cos-major > .cos-title:before, header.cos-major > .cos-title:after{
+				width: calc(29% - 3em);
+			}
+		}
+
+		@media screen and (max-width: 1500px) {
+			header.ccs-major > .ccs-title2:before, header.ccs-major > .ccs-title2:after,
+			header.taas-major1 > .taas-title1:before, header.taas-major1 > .taas-title1:after,
+			header.cos-major > .cos-title:before, header.cos-major > .cos-title:after{
+				width: calc(25% - 3em);
+			}
+			.services-card {
+				padding: 1em 1.5em;
+			}
+		}
+
+		@media screen and (max-width: 1300px) {
+			header.ccs-major > .ccs-title2:before, header.ccs-major > .ccs-title2:after,
+			header.taas-major1 > .taas-title1:before, header.taas-major1 > .taas-title1:after,
+			header.cos-major > .cos-title:before, header.cos-major > .cos-title:after{
+				width: calc(20% - 2em);
+			}
+			.services-options {
+				margin: 3em 1em;
+			}
+		}	
+
+		@media screen and (max-width: 1200px) {
+			.services-options {
+				margin: 1em;
+			}
+		}
+
+		@media screen and (max-width: 1100px) {
+			header.ccs-major > .ccs-title2:before, header.ccs-major > .ccs-title2:after,
+			header.taas-major1 > .taas-title1:before, header.taas-major1 > .taas-title1:after,
+			header.cos-major > .cos-title:before, header.cos-major > .cos-title:after {
+				width: calc(15% - 2em);
+			}
+			header.ccs-major > .ccs-title2:before, header.taas-major1 > .taas-title1:before, header.cos-major > .cos-title:before {
+				left: 3.5em;
+			}
+			header.ccs-major > .ccs-title2:after, header.taas-major1 > .taas-title1:after, header.cos-major > .cos-title:after {
+				right: 3.5em;
+			}
+			.services-card > img{
+				width: 2em;
+				margin-right: 2em;
+			}
+			.services-card {
+				padding: 1em 1em;
+			}
+		}
+
+		@media screen and (max-width: 1000px) {
+			.services-options {
+				margin: 2em 1em;
+			}
+		}
+
+		@media screen and (max-width: 880px) {
+			header.ccs-major > .ccs-title2:before, header.ccs-major > .ccs-title2:after,
+			header.taas-major1 > .taas-title1:before, header.taas-major1 > .taas-title1:after,
+			header.cos-major > .cos-title:before, header.cos-major > .cos-title:after{
+				width: calc(10% - 1em);
+			}
+			.services-card {
+				padding: 1em 1.5em;
+			}
+			.services-card > img {
+				margin-right: 2em;
+			}
+			.services-options {
+				margin: 3em 0;
+				--bs-gutter-x:0;
+			}
+		}
+
+		@media screen and (max-width: 767px) {
+			header.ccs-major > .ccs-title2:after, header.taas-major1 > .taas-title1:after, header.cos-major > .cos-title:after {
+				width:0;
+			}
+			header.ccs-major > .ccs-title2:before,header.taas-major1 > .taas-title1:before, header.cos-major > .cos-title:before {
+				content: "";
+				height: 1.5em;
+				width: 0.5em;
+				background-color: #0C2340;
+				position: absolute;
+				margin: 0px !important;
+				border:0;
+				left: 0;
+				top: 0;
+			}
+			.ccs-name, .taas-name1, .cos-name {
+				margin-left: 0.8em;
+				text-align: left;
+				font-size: 1.5em;
+				padding: 0;
+				bottom: 2.5px;
+			}
+			.services-card {
+				padding: 1.5em 3em;
+				width: 90%;
+    			margin: 0 3em;
+			}
+			.services-options {
+				margin: 0 1em;
+			}
+		}
+
+		@media screen and (max-width: 500px) {
+			.name{
+				margin-left: 0;
+				font-size: 1.5em;
+			}
+			.services-card-title, .tss-card-name > h5, .taas-card-name > h5 {
+				font-size: 12pt !important;
+			}
+		}
+
+		@media screen and (max-width: 584px) {
+			header.ccs-major > .ccs-title2:before, header.taas-major1 > .taas-title1:before, header.cos-major > .cos-title:before{
+				top: 5%;
+			}
+			.services-options {
+				margin: 0;
+			}
+			.services-card {
+				padding: 1em 2em;
+			}
+			.services-card > img{
+				width: 2.5em;
+				margin-right: 2em
+			}
+		}
+
+		@media screen and (max-width: 400px) {
+			.services-card > img{
+				width: 2em;
+				margin-right: 1em;
+			}
+			.services-card {
+				padding: 1em;
+				margin: 0 1.5em;
+			}
+			#ccs-third-section, #cas-third-section, #itss-third-section{
+				padding-bottom: 4em;
+			}
+		}
+
+/*--------------------------------------------------------------
+# SOLUTIONS PAGE - DESCRIPTION SECTION
+--------------------------------------------------------------*/
+	.cos-description, .cys-description{
+		padding: 5em 14em;
+		text-align: center;
+	}
+
+	.tss-description{
+		padding: 6em 14em 0 14em;
+		text-align: center;
+		text-align-last: center;
+	}
+
+	.cos-d-body, .tss-d-body, .cys-d-body{
+		text-align: justify;
+		font-weight: 400;
+		line-height: normal;
+		font-size: 14pt;
+	}
+		
+	.cys-d-head{
+		color: #00C756;
+		text-align: center;
+		font-size: 20pt;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+	}
+
+	.cys-d-body{
+		padding-top: 2em;
+	}
+
+	/* RESPONSIVE DESCRIPTION AREA */
+		@media (max-width: 1600px){
+			.cos-description, .cys-description{
+				padding: 6em 8em;
+			}
+			.tss-description{
+				padding: 5em 8em 0 8em;
+			}
+		}
+
+		@media (max-width: 1200px){
+			.cos-description, .tss-description, .cys-description{
+				padding: 4em;
+			}
+			.tss-description{
+				padding: 4em 4em 0 4em;
+			}
+		}
+
+		@media (max-width: 767px){
+			.cos-description, .cys-description{
+				padding: 3em;
+			}
+			.tss-description{
+				padding: 3em 3em 0 3em;
+			}
+		}
+
+		@media (max-width: 500px){
+			.tss-description{
+				padding: 3em 2.5em 0 2.5em;
+			}
+			.cos-d-body, .tss-d-body, .cys-d-body{
+				font-size: 12pt;
+			}
+			.cos-description, .cys-description{
+				padding: 3em 1.5em;
+			}
+		}
+
+
+/*--------------------------------------------------------------
+# SOLUTIONS PAGE - DESCRIPTION BOX SECTION
+--------------------------------------------------------------*/
+	.it-box-description, .tss-box-description{
+		padding: 5em 15em 1.5em 15em;
+	}
+
+	.it-box, .tss-box{
+		background-color: #0c2340;
+	}
+
+	.it-cap, .tss-cap{
+		margin: 3em;
+	}
+
+	.it-cap > .it-box-body, .tss-cap > .tss-box-body{
+		color: #a8adb0;
+		margin-top: 1em;
+		font-weight: 400;
+	}
+
+	.it-cap>.it-box-head, .it-cap>.it-box-body>span,
+	.tss-cap>.tss-box-head, .tss-cap>.tss-box-body>span{
+		text-transform: uppercase;
+		color: #00c756;
+		font-weight: 600;
+		text-align: center;
+	}
+
+	/* RESPONSIVE DESCRIPTION BOX SECTION */
+		@media (max-width: 1700px){
+			.it-box-description, .tss-box-description {
+				padding: 4em 12em 0 12em;
+			}
+		}
+
+		@media (max-width: 1500px){
+			.it-box-description, .tss-box-description {
+				padding: 4em 6em 0 6em;
+			}
+		}
+
+		@media (max-width: 767px){
+			.it-box-description, .tss-box-description {
+				padding: 3em 3em 1em 3em;
+			}
+			.it-cap, .tss-cap {
+				margin: 2em;
+			}
+		}
+
+		@media (max-width: 500px){
+			.it-cap, .tss-cap {
+				margin: 1em;
+			}
+			.it-box-description, .tss-box-description{
+				padding: 3em 1.5em 1.5em 1.5em;
+			}
+		}
+
+	/* CARDS SERVICES SECTION */ /* TSS - TAAS*/
+		.tss-services, .taas-services{
+			margin: 2em 0 8em 0;
+		}
+
+		.tss-cards-sec, .taas-cards-sec{
+			margin: 2em 10em;
+		}
+
+		.tss-card-style, .taas-card-style{
+			background-color: transparent;
+			border: 0.01em solid #0C2340;
+			margin: 0 8em;
+		}
+
+		.tss-card-name, .taas-card-name{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0;
+		}
+
+		.tss-card-name > h5, .taas-card-name > h5{
+			margin: 1.5em 1em;
+			display: flex;
+			justify-content: center;
+			text-transform: none;
+			line-height: normal;
+			font-weight: 500;
+			font-size: 14pt;
+			text-align: center;
+		}
+
+	/* CARDS SERVICES SECTION */
+		.taas-card-services, .cos-card-services{
+			margin-top: 5em;
+		}
+
+	/* RESPONSIVE DESCRIPTION AREA */
+			@media (max-width: 1700px){
+				.tss-card-style, .taas-card-style{
+					margin: 0 6em;
+				}
+				.tss-cards-sec, .taas-cards-sec{
+					margin: 2em 6em;
+				}
+			}
+
+			@media (max-width: 1500px){
+				.tss-cards-sec, .taas-cards-sec{
+					margin: 2em 3em;
+				}
+				.tss-card-style, .taas-card-style{
+					margin: 0 4em;
+				}
+			}
+
+			@media (max-width: 1200px){
+				.tss-cards-sec, .taas-cards-sec{
+					margin: 2em 4em;
+				}
+				.tss-card-style, .taas-card-style{
+					margin: 0 2em;
+				}
+			}
+
+			@media (max-width: 900px){
+				.tss-cards-sec, .taas-cards-sec{
+					margin: 2em;
+				}
+			}
+
+			@media (max-width: 767px){
+				.tss-services, .taas-services{
+					margin: 2.5em 0 4em 0;
+				}
+				.taas-card-services, .cos-card-services {
+					margin-top: 2.5em;
+				}
+				.tss-card-style, .taas-card-style{
+					margin: 0.5em 0;
+				}
+				.tss-cards-sec, .taas-cards-sec{
+					margin: 1em 4em;
+				}
+			}
+
+			@media (max-width: 700px){
+				.tss-cards-sec, .taas-cards-sec {
+					flex-direction: column;
+					margin: 0 4em;
+				}
+				.tss-cards, .taas-cards{
+					width: 100%;
+					margin-bottom: 0 !important;
+					padding: 0;
+				}
+			}
+
+			@media (max-width: 500px){
+				.tss-cards-sec, .taas-cards-sec{
+					margin: 0 2em;
+				}
+			}
+
+
+
+
+/*--------------------------------------------------------------
+# SOLUTIONS PAGE - CUSTOMER ACQUISION AREA
+--------------------------------------------------------------*/
+	/* DESCRIPTION FIRST SECTION CAS */
+		.cas-first-section{
+			padding: 0 3em;
+		}
+
+		.cards-cas > .card:first-child {
+			--bs-card-border-color: none;
+			--bs-card-bg: none;
+			padding: 6em 10em 0 10em;
+		}
+
+		.cards-cas > .card:last-child {
+			--bs-card-border-color: none;
+			--bs-card-bg: none;
+			padding: 2em 10em 3em 10em;
+		}
+
+		/* DESCRIPTION INFO */
+			.card-cas-one > p, .card-cas-two > p {
+				font-size: 14pt;
+				padding: 0;
+			}
+
+			.info-cas-one{
+				align-items: center;
+			}
+
+			.info-cas-two {
+				display: flex;
+				flex-direction: row-reverse;
+				align-items: center;
+			}
+
+			.info-cas-one > .col-md-8, .info-cas-two > .col-md-8{
+				width: 75%;
+			}
+
+			.card-cas-two > p{
+				padding-right: 5em;
+			}
+
+			.card-cas-one > p{
+				padding-left: 5em;
+			}
+
+			.cas-info-image1, .cas-info-image2{
+				display: flex;
+				width: 25%;
+			}
+
+			.cas-info-image1 > img, .cas-info-image2 > img{
+				object-fit: cover;
+				min-height: 11.5em;
+			}
+
+
+			/* DESCRIPTION RESPONSIVE AREA */
+				@media (max-width: 1650px){
+					.cards-cas > .card:first-child{
+						padding: 6em 8em 0 8em;
+					}
+					.cards-cas > .card:last-child{
+						padding: 2em 8em 3em 8em;
+					}
+				}
+
+				@media (max-width: 1400px){
+					.cards-cas > .card:first-child{
+						padding: 6em 2em 0 2em;
+					}
+					.cards-cas > .card:last-child{
+						padding: 2em 2em 4em 2em;
+					}
+					.card-cas-one > p, .card-cas-two > p {
+						font-size: 12pt;
+					}
+				}
+
+				@media (max-width: 1200px){
+					.cards-cas > .card:first-child{
+						padding: 4em 2em 0 2em;
+					}
+					.cards-cas > .card:last-child{
+						padding: 2em 2em 2em 2em;
+					}	
+				}
+
+				@media (max-width: 990px){
+					.cards-cas > .card:first-child{
+						padding: 3em 0 0 0;
+					}
+					.cards-cas > .card:last-child{
+						padding: 1em 0 0 0;
+					}
+					.card-cas-two > p{
+						padding-right: 2em;
+					}
+					.card-cas-one > p{
+						padding-left: 2em;
+					}
+				}
+
+				@media (max-width: 767px){
+					.cas-first-section{
+						padding: 3em 3em 0 3em;
+					}
+					.card-cas-one > p, .card-cas-two > p {
+						padding: 1em 0 0 0;
+					}
+					.card-cas-one{
+						margin: 0 !important;
+					}
+					.cards-cas > .card:first-child, .cards-cas > .card:last-child{
+						margin: 0 !important;
+						padding: 0;
+					}
+					.cas-info-image2{
+						display: none;
+					}/*SERVICES SECTION CAS */
+					#cas-third-section {
+						padding: 2em 0 4em 0;
+					}
+					.cas-info-image1 > img, .cas-info-image2 > img{
+						object-fit: cover;
+						height: auto;
+						min-height: auto;
+					}
+					.cas-info-image1, .cas-info-image2 {
+						width: 100%;
+						flex-direction: column;
+					}
+					.info-cas-one > .col-md-8, .info-cas-two > .col-md-8 {
+						width: 100%;
+					}
+				}
+
+				@media (max-width: 500px){
+					.cas-first-section{
+						padding: 3em 1.5em 0 1.5em;
+					}
+					.first-section-cas {
+						padding: 2em 1.5em 0 1.5em;
+					}
+					.cas-first-section{
+						padding: 2.5em 1.5em 0 1.5em;
+					}
+				}
+
+/* END SOLUTIONS - CUSTOMER ACQUISION AREA */
+
+
+
+
+/*--------------------------------------------------------------
+# SOLUTIONS PAGE - COLLECTIONS AREA
+--------------------------------------------------------------*/
+	/* SECTION SERVICES */
+	.cos-services{
+		margin-bottom: 2em;
+	}
+
+
+
+/*--------------------------------------------------------------
+# SOLUTIONS PAGE - TECHNICAL SUPPORT SERVICES AREA
+--------------------------------------------------------------*/
+	/* SECTION BANNER */
+		/*.tss-s{
+			font-size: 1.1em !important;
+			font-weight: 900;
+		}*/ /*! css*/
+			
+/* END SOLUTIONS - TECHNICAL SUPPORT SERVICES AREA */
+
+
+
+
+/*--------------------------------------------------------------
+# SOLUTIONS PAGE - TALENT AS A SERVICE AREA
+--------------------------------------------------------------*/
+	/* DESCRIPTION SECTION */
+		.taas-dark-case {
+			background: #0c2340;
+		}
+
+		.taas-dark > h5{
+			color: #00c756;
+		}
+
+		.taas-dark > p {
+			color: #f7f7f7;
+			font-size: 16pt !important;
+			line-height: normal;
+		}
+
+		.taas-card {
+			align-items: center;
+		}
+
+		.taas-box-caption{
+			margin: 2em 0 2em 0;
+			padding-right: 3em;
+		}
+
+		.box1{
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			align-items: center;
+			padding: 4em;
+		}
+
+		.box-image{
+			padding: 2em 0 2em 2em;
+		}
+
+		.box-img{
+			margin: 0.5em;
+			max-width: 50% !important;
+			height: auto;
+		} 
+
+
+	/* ACCORDION SECTION */
+		.taas-accordion-sec{
+			margin: 3em 12em 0 12em;
+		}
+
+		.taas-accordion{
+			--bs-accordion-bg: transparent;
+			--bs-accordion-border-color: none;
+			--bs-border-radius: 0.3em;
+			--bs-accordion-active-bg: none;
+			--bs-accordion-btn-icon: none;
+			--bs-accordion-btn-active-icon: none;
+			--bs-accordion-btn-icon-transform: none;
+			--bs-accordion-btn-icon-transition: none;
+		}
+
+		.taas-item-dark{
+			margin: 0.5em;
+			background: #a8adb0;
+			border-radius: 0.5em;
+		}
+
+		.taas-item-clear{
+			margin: 0.5em;
+			background: #a8adb082;
+			border-radius: 0.5em;
+		}
+
+		.taas-btn{
+			font-size: 14pt;
+			font-weight: 700;
+			color: #0c2340;
+		}
+
+		.taas-acc-body{
+			padding: 0 1.25em 1em 1.25em;
+			font-size: 12pt;
+			font-weight: normal;
+			line-height: 1.75;
+			color: #0c2340;
+		}
+
+		.taas-btn::after {
+			content: "+";
+			margin-bottom: 0.5em;
+		}
+
+		.taas-btn:not(.collapsed)::after {
+			content: "-";
+		}	
+
+		/* ACCORDION TITLE */
+			#taas-title2{
+				margin-right: 1em;
+			}
+
+			#taas-title2 h6 {
+				font-size: 2em;
+				font-weight: 600;
+				color: #0c2340;
+				margin-left: 0.8em;
+				line-height: normal;
+				z-index: 2;
+				position: relative;
+			}
+
+			#taas-title2 > h6 > span{
+				text-transform: uppercase;
+			}
+
+			#taas-title2::before {
+				content: "";
+				height: 2em;
+				width: 1em;
+				background-color: #0c2340;
+				position: absolute;
+				margin: 0;
+				margin-top: 0.2em;
+			}
+
+			/* RESPONSIVE ACCORDION AREA */
+				@media (max-width: 1700px){
+					.taas-accordion-sec{
+						margin: 3em 10em 0 10em;
+					}
+				}
+
+				@media (max-width: 1500px){
+					.taas-accordion-sec{
+						margin: 3em 5em 0 5em;
+					}
+				}
+
+				@media (max-width: 1000px){
+					.taas-accordion-sec{
+						margin: 3em 3.5em 0 3.5em;
+					}
+				}
+
+				@media (max-width: 767px){
+					.taas-accordion-sec{
+						margin: 3em 2em 0 2em;
+					}
+					#taas-title2::before {
+						width: 0.5em;
+						height: 1.5em;
+						margin: 0;
+					}
+					#taas-title2 h6 {
+						font-size: 1.5em;
+						top: -2px;
+					}
+					.box{
+						padding: 2em;		
+					}
+					.box1{
+						padding: 3em 2em 2em 2em;
+					}
+					.box-image{
+						display: flex;
+						justify-content: flex-end;
+						padding: 2em 1.5em 1.5em 1.5em;
+					}
+					.box-img{
+						margin: 0;
+						max-width: 15% !important;
+						height: auto;
+					}
+					.taas-box-caption{
+						padding: 0.5em 1.5em 1.5em 1.5em;
+						margin: 0;
+					}
+					.taas-dark > p{
+						font-size: 14pt !important;
+					}
+					.taas-item-dark, .taas-item-clear{
+						margin: 0.5em 0;
+					}
+				}
+
+				@media (max-width: 500px){
+					.box1 {
+						padding: 3em 1.5em 1em 1.5em;
+					}
+					.taas-box-caption {
+						padding: 0.5em 1em 1em 1em;
+					}
+					.taas-accordion-sec {
+						margin: 2em 1.5em 0 1.5em;
+					}
+				}
+
+	/* TITLE MAPPING SECTION */
+		.taas-map-sec{
+			padding-top: 5em;
+		}
+		
+		.taas-title3 {
+			display: block;
+			position: relative;
+		}
+
+		.taas-name3 {
+			display: block;
+			position: relative;
+			color: #0C2340;
+			text-align: center;
+			font-size: 2.5rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			padding: 0 1em;
+		}
+
+		.taas-name3 > span{
+			text-transform: none;
+		}
+
+		header.taas-major > .taas-title3:before, header.taas-major > .taas-title3:after {
+			content: '';
+			color: #0c2340;
+			display: block;
+			position: absolute;
+			top: 50%;
+			width: calc(32% - 0.1em);
+			border-top: solid 0.1em;
+		}
+
+		header.taas-major > .taas-title3:before {
+			left: 5em;
+		}
+
+		header.taas-major > .taas-title3:after {
+		right: 5em;
+	}
+
+
+		/*RESPONSIVE SECOND SECTION*/
+			@media screen and (max-width: 1530px) {
+				header.taas-major > .taas-title3:before, header.taas-major > .taas-title3:after {
+					width: calc(32% - 3em);
+				}
+			}
+
+			@media screen and (max-width: 1200px) {
+				header.taas-major > .taas-title3:before, header.taas-major > .taas-title3:after {
+					width: calc(32% - 5em);
+				}
+			}	
+
+			@media screen and (max-width: 950px) {
+				header.taas-major > .taas-title3:before, header.taas-major > .taas-title3:after {
+					width: calc(25% - 2em);
+				}
+				header.taas-major > .taas-title3:before {
+				left: 2.5em;
+				}
+				header.taas-major > .taas-title3:after {
+					right: 2.5em;
+				}
+			}
+
+			@media screen and (max-width: 767px) {
+				header.taas-major > .taas-title3:before {
+					content: "";
+					height: 1.5em;
+					width: 0.5em;
+					background-color: #0C2340;
+					position: absolute;
+					margin: 0px !important;
+					border: 0;
+					left: 0;
+					top: 0;
+				}
+				header.taas-major > .taas-title3:after {
+					width: 0;
+				}
+				.taas-name3 {
+					margin-left: 0.8em;
+					text-align: left;
+					font-size: 1.5em;
+					padding: 0;
+				}
+			}
+
+
+	/* STEP MAPPING SECTION */
+		.taas-container{
+			padding: 4em 2em 8em 2em;
+		}
+
+		.taas-row{
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		.step{
+			flex: 0 0 auto;
+			width: 30%;
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.arrows{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			width: auto;
+			padding: 0;
+			max-width: 5%;
+		}
+
+		.map-arrows{
+			display: flex;
+			align-items: center;
+			padding: 0;
+			width: 5%;
+		}
+
+		.map-arrows2{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			padding: 0;
+		}
+
+		.arrows-con{
+			display: flex;
+			justify-content: center;
+			padding: 0;
+		}
+
+		.step-clear {
+			border:0.1em solid #0c2340;
+			padding: 1em;
+			border-radius: 0.5em;
+		}
+
+		.step-dark{
+			background: #0c2340;
+			padding: 1em;
+			border-radius: 0.5em;
+		}
+
+		.step-clear > h3, .step-dark > h3 {
+			margin-bottom: 0.5em;
+			color: #00c756;
+			font-size: 16pt;
+			font-weight: 600;
+		}
+
+		.step-clear > p{
+			text-align: justify;
+			font-size: 12pt;
+			line-height: normal;
+		}
+
+		.step-dark > p{
+			color: #F3F3F3;
+			text-align: justify;
+			font-size: 12pt;
+			line-height: normal;
+		}
+
+		/* RESPONSIVE MAPPING SECTION */
+			@media (min-width: 1400px){
+				#arrow-line2, #arrow-line3, #arrow-line4, #arrow-line5, #arrow2, #arrow3, #arrow4{
+					display: none !important;
+				}
+				#arrow1, #arrow-line1{
+					visibility: visible !important;
+					display: flex !important;
+				}
+			}
+
+			@media (max-width: 1399px){
+				#arrow-line1, #arrow-line3, #arrow-line4, #arrow-line5, #arrow1,#arrow3, #arrow4{
+					display: none!important;
+				}
+				#arrow2, #arrow-line2{
+					visibility: visible !important;
+					display: flex !important;
+				}
+			}
+
+			@media (max-width: 1199px){
+				#arrow-line1, #arrow-line2, #arrow-line5, #arrow1, #arrow2, #arrow4{
+					display: none!important;
+				}
+				#arrow3, #arrow-line3{
+					visibility: visible !important;
+					display: flex !important;
+				}
+			}
+
+			@media (max-width: 991px){
+				.step{
+					width: 47.5%;
+				}
+				#arrow5, #arrow-line1, #arrow-line2, #arrow-line3, #arrow-line5, #arrow1, #arrow2, #arrow3, #arrow4{
+					display: none!important;
+				}
+				.arrows{
+					flex-direction: column;
+					width: -webkit-fill-available;
+					max-width: -webkit-fill-available;
+				}
+				#arrow4,#arrow-line4{
+					visibility: visible !important;
+					display: flex !important;
+				}
+				.map-arrows2{
+					width: auto;
+					align-items: center;
+				}
+			}
+
+			@media (max-width: 767px){
+				.taas-container{
+					padding: 2.5em 1.5em 4em 1.5em;
+				}
+				.taas-row{
+					display: flex;
+					flex-direction: column;
+				}
+				.step{
+					width: 100%;
+				}
+				.map-arrows, .map-arrows2{
+					justify-content: center;
+					margin: 0.75em 0;
+					width: 100%;
+				}
+				#arrow5{
+					visibility: visible !important;
+					display: flex !important;
+				}
+				.arrow1, .arrow2, .arrow3, #arrow4, #arrow-line1, #arrow-line2, #arrow-line3{
+					display: none!important;
+				}
+				#arrow-line4, #arrow-line5{
+					transform: rotate(90deg);
+				}
+				#arrow-line5{
+					visibility: visible !important;
+					display: flex !important;
+				}
+				.map-arrow4 > svg, .map-arrow5 > svg{
+					width: 34px;
+				}
+			}
+/* END SOLUTIONS - TALENT AS A SERVICE AREA */
+
+
+
+/*--------------------------------------------------------------
+# SOLUTIONS PAGE - CYBERSECURITY SERVICES AREA
+--------------------------------------------------------------*/
+	/* ADDITIONAL TEXT */
+		.cases2{
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			align-items: center;
+			padding: 0 4em 4em 4em;
+		}
+
+		.case2 {
+			max-width: 1000px;
+			margin-bottom: 2em !important;
+			border: solid 0.01em #0c2340;
+			background: transparent;
+		}
+
+		.cases2 img {
+			height: 100%;
+			object-fit: cover;	
+		}
+
+		.cys-d-title{
+			padding-top: 3em;
+			color: #0c2340;
+			text-align: center;
+			font-size: 20pt;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			text-transform: uppercase;
+		}
+	
+		/* SERVICES CARDS */
+		#cys-second-section{
+			padding-top: 3em;
+		}
+
+		.cys-card, .aits-card{
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.cys-dark > h5, .cys-dark >p, .aits-dark > h5, .aits-dark >p{
+			color: #A8ADB0 !important;
+		}
+
+		.cys-dark-case, .aits-dark-case {
+			max-width: 1000px;
+			margin-bottom: 2em !important;
+			background: #0c2340;
+		}
+
+		.cys-card > .card-caption, .aits-card > .card-caption{
+			padding: 2em;
+		}
+
+		.cys-card > .card-caption > .card-body > h5, .aits-card > .card-caption > .card-body > h5{
+			padding-bottom: 1em;;
+		}
+
+		/* RESPONSIVE AREA SERVICES CARDS */
+			@media screen and (max-width: 991px){
+				.cases2{
+					padding: 0 1em 4em 1em;
+				}
+			}
+
+			@media screen and (max-width: 767px){
+				.cases2{
+					padding: 0 0 4em 0 ;		
+				}
+				#cys-second-section{
+					padding-top: 2em;
+				}
+				.cys-card > .card-caption, .aits-card > .card-caption {
+					padding: 1em 1em 2em 1em;
+				}
+				.cases-img > .rounded-start{
+					border-bottom-left-radius: 0 !important;
+				}
+				.space-cys{
+					display: none !important;
+					visibility: hidden !important;
+				}
+				.cases2 > div:last-child{
+					margin-bottom: 0 !important;
+				}
+			}
+
+			@media screen and (max-width: 575px){
+				.cases2{
+					padding: 1em 2em 4em 2em;
+				}
+				.cys-d-head, .cys-d-title{
+					font-size: 16pt;
+				}
+				#cys-second-section {
+					padding-top: 0;
+				}			
+			}
+
+/* END SOLUTIONS - CYBERSECURITY SERVICES AREA */
+
+
+
+
+/*--------------------------------------------------------------
+#  SOLUTIONS PAGE - BUSINESS INTELLIGENCE SERVICES AREA
+--------------------------------------------------------------*/
+	/* BUSINESS CARDS SECTION */
+		.bis-sec{
+			margin: 4em 16em;
+		}
+
+		.bis-card{
+			padding: 2em 1em;
+		}
+
+		.bis-card-c{
+			background-color: transparent;
+			border: 0.01em solid #0C2340;
+		}
+
+		.bis-card-body{
+			margin: 2em
+		}
+
+		.bis-card-title{
+			color: #00C756 !important;
+			font-weight: 600 !important;
+			text-transform: none !important;
+			padding-bottom: 1em;
+			margin: 0;
+		}
+
+		.last-card{
+			justify-content: center;
+		}
+
+		/* BUSINESS CARDS RESPONSIVE SECTION AREA */
+			@media (max-width: 1700px){
+				.bis-sec{
+					margin: 4em 10em;
+				}
+			}
+
+			@media (max-width: 1500px){
+				.bis-sec{
+					margin: 4em 5em;
+				}
+			}
+
+			@media (max-width: 1100px){
+				.bis-sec{
+					margin: 4em 3em;
+				}
+			}
+
+			@media (max-width: 767px){
+				.bis-sec{
+					margin: 2.5em 3em;
+				}
+				.bis-cards-g > .row{
+					flex-direction: column;
+				}
+				.bis-card{
+					width: 100%;
+					padding: 0.75em 0;
+				}
+				.bis-card-body{
+					margin: 1em;
+				}
+			 }
+
+			@media (max-width: 500px){
+				.bis-sec {
+					margin: 2.5em 2em;
+				}
+			}
+
+/* END SOLUTIONS - BUSINESS INTELLIGENCE SERVICES AREA */
+
+
+
+
+/*--------------------------------------------------------------
+# SOLUTIONS PAGE - AI TRAINING SERVICES AREA
+--------------------------------------------------------------*/
+	/* AI TRAINING CARDS SECTION */
+	#aits-first-section{
+		padding-top: 6em;
+	}
+
+	@media screen and (max-width: 767px){
+		#aits-first-section{
+			padding-top: 4em;
+		}
+		.space-aits{
+			display: none !important;
+			visibility: hidden !important;
+		}
+	}
+
+	@media screen and (max-width: 500px){
+		#aits-first-section{
+			padding-top: 2em;
+		}
+		.cases2 {
+			padding: 1em 1.5em 4em 1.5em;
+		}
+	}
